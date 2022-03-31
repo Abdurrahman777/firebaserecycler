@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <layout>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".adddata">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text=" Add Detail"
+        android:textColor="#0D122B"
+        android:textSize="@dimen/_16sdp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/add_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/backbutton"
+        android:hint="Your Name"
+        android:inputType="textPersonName"
+        android:padding="@dimen/_10sdp"
+        android:textColor="#000"
+        android:textSize="@dimen/_10sdp" />
+
+    <EditText
+        android:id="@+id/add_course"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/backbutton"
+        android:hint="Your Course"
+        android:inputType="text"
+        android:padding="@dimen/_10sdp"
+
+        android:textColor="#000"
+        android:textSize="@dimen/_10sdp" />
+
+    <EditText
+        android:id="@+id/add_email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/backbutton"
+        android:hint="Your Email"
+        android:inputType="textEmailAddress"
+        android:padding="@dimen/_10sdp"
+        android:textColor="#000"
+        android:textSize="@dimen/_10sdp" />
+
+
+    <EditText
+        android:id="@+id/add_purl"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/backbutton"
+        android:hint="Profile Image URL"
+        android:inputType="text"
+        android:padding="@dimen/_10sdp"
+        android:textColor="#000"
+        android:textSize="@dimen/_10sdp" />
+
+    <Button
+        android:id="@+id/add_submit"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_button"
+        android:text="Add to Firebase"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="@dimen/_10sdp" />
+
+    <Button
+        android:id="@+id/add_back"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:background="@drawable/rounded_button"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="@dimen/_12sdp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+</layout>
